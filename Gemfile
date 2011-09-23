@@ -2,7 +2,7 @@ source 'http://rubygems.org'
 
 gem 'rails', '3.0.10'
 gem 'nokogiri'
-gem 'mongoid', '2.1.2'
+gem 'mongoid', '2.2.1'
 gem 'haml'
 gem 'will_paginate', '>=3'
 gem 'htmlentities', "~> 4.3.0"
@@ -15,12 +15,11 @@ gem 'pivotal-tracker'
 gem 'ruby-fogbugz', :require => 'fogbugz'
 gem 'octokit'
 gem 'inherited_resources'
-gem 'SystemTimer', :platform => :ruby_18
 gem 'hoptoad_notifier', "~> 2.4"
 gem 'actionmailer_inline_css', "~> 1.3.0"
 
 platform :ruby do
-  gem 'bson_ext', '~> 1.3.1'
+  gem 'bson_ext', '~> 1.4'
 end
 
 group :development, :test do
