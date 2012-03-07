@@ -28,6 +28,7 @@ platform :ruby do
 end
 
 gem 'ri_cal'
+gem 'thin'
 
 group :development, :test do
   gem 'rspec-rails', '~> 2.6'
@@ -38,6 +39,8 @@ group :development, :test do
     gem 'ruby-debug19', :platform => :mri_19, :require => 'ruby-debug'
   end
   # gem 'rpm_contrib', :git => "git://github.com/bensymonds/rpm_contrib.git", :branch => "mongo-1.4.0_update"
+  gem 'pry'
+  gem 'pry-doc'
 end
 
 group :test do
